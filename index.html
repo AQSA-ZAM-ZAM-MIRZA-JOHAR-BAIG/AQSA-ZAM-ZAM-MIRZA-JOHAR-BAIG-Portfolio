@@ -1,79 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Aqsa Zam Zam Mirza Johar Baig | Law Student | Portfolio</title>
-
-<meta name="description" content="Portfolio of Aqsa Zam Zam Mirza Johar Baig, law student ranked 7 in MHT CET Law. Explore achievements, academic journey, and profiles.">
-
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqsa Mirza | Legal Professional Portfolio</title>
+  <meta name="description" content="Portfolio of Aqsa Mirza – BA LLB student, CLAT AIR 42, AILET AIR 34, moot court champion, and accomplished legal researcher.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<header>
-<h1>AQSA ZAM ZAM MIRZA JOHAR BAIG</h1>
-<p>Law Student | MHT CET Law Rank 7</p>
-</header>
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="#hero">AM</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-<section class="about">
-<h2>About Me</h2>
-<p>
-I am <strong>Aqsa Zam Zam Mirza Johar Baig</strong>, a law student who secured Rank 7 in MHT CET Law.
-I am passionate about legal studies, research, and academic excellence.
-</p>
-</section>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+    </div>
+    <div class="hero-content" data-animate="fade-up">
+      <div class="hero-badge">Legal Professional · Policy Researcher</div>
+      <h1 class="hero-name">Aqsa Mirza</h1>
+      <p class="hero-tagline">BA LLB Student &amp; Aspiring Policy Advocate</p>
+      <p class="hero-description">
+        Turning legal acumen into meaningful change — with <strong>CLAT AIR 42</strong>, <strong>AILET AIR 34</strong>,
+        and a track record spanning human rights, medico-legal research, and national moot court podiums.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="9">0</span>
+          <span class="stat-label">Internships</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Moot Wins</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="77">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Aggregate</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-<section class="achievements">
-<h2>Achievements</h2>
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid" data-animate="fade-up">
+        <div class="about-text">
+          <p>
+            I am <strong>Aqsa Mirza</strong>, a driven BA LLB student at Dr. Panjabrao Deshmukh College of Law,
+            Amravati. My ambition is to contribute meaningfully to <strong>NITI Aayog's</strong> policy research
+            and legal initiatives — leveraging my academic grounding in law, passion for public policy, and
+            sharp analytical skills.
+          </p>
+          <p>
+            From drafting at the Bombay High Court (Nagpur Bench) to national moot court championships,
+            I bring both courtroom insight and academic rigor to every challenge I undertake.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <span>52, Zeeshan Colony, Amravati – 444601</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📱</span>
+              <span>+91 7558399742</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <a href="mailto:aqsamirza6306@gmail.com">aqsamirza6306@gmail.com</a>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🌐</span>
+              <span>English · Hindi · Marathi</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="highlight-card card-gold">
+            <div class="hcard-icon">🏆</div>
+            <div class="hcard-label">CLAT 2022</div>
+            <div class="hcard-value">AIR 42</div>
+          </div>
+          <div class="highlight-card card-silver">
+            <div class="hcard-icon">⚖️</div>
+            <div class="hcard-label">AILET 2022</div>
+            <div class="hcard-value">AIR 34</div>
+          </div>
+          <div class="highlight-card card-blue">
+            <div class="hcard-icon">📚</div>
+            <div class="hcard-label">12th Grade</div>
+            <div class="hcard-value">95%</div>
+          </div>
+          <div class="highlight-card card-teal">
+            <div class="hcard-icon">🎓</div>
+            <div class="hcard-label">10th Grade</div>
+            <div class="hcard-value">97.4%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<ul>
-<li>Rank 7 in MHT CET Law Examination</li>
-<li>Strong academic performance</li>
-<li>Interest in legal research and advocacy</li>
-</ul>
+  <!-- EXPERIENCE -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Career Path</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline" data-animate="fade-up">
 
-</section>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">National Human Rights Commission</h3>
+                <span class="tc-role">Intern</span>
+              </div>
+              <span class="tc-date">Jan 27 – Feb 7, 2025</span>
+            </div>
+            <p class="tc-desc">Analyzed contemporary human rights issues and engaged in discussions on legal frameworks, judicial interventions, and policy recommendations.</p>
+            <div class="tc-tags"><span>Human Rights</span><span>Policy</span><span>Legal Frameworks</span></div>
+          </div>
+        </div>
 
-<section class="profiles">
-<h2>Online Profiles</h2>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">Juris Centre</h3>
+                <span class="tc-role">Legal Intern</span>
+              </div>
+              <span class="tc-date">November 2024</span>
+            </div>
+            <p class="tc-desc">Gained hands-on experience in legal research and analysis, contributing to articles and case summaries on complex legal issues.</p>
+            <div class="tc-tags"><span>Legal Research</span><span>Case Summaries</span><span>Analysis</span></div>
+          </div>
+        </div>
 
-<div class="links">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">MediLaw</h3>
+                <span class="tc-role">Law Intern</span>
+              </div>
+              <span class="tc-date">October 2024</span>
+            </div>
+            <p class="tc-desc">Developed skills in medico-legal research and authored articles on healthcare regulations, patient rights, and medical negligence.</p>
+            <div class="tc-tags"><span>Medico-Legal</span><span>Healthcare Law</span><span>Patient Rights</span></div>
+          </div>
+        </div>
 
-<a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">NayaLegal</h3>
+                <span class="tc-role">Legal Research Intern</span>
+              </div>
+              <span class="tc-date">Sep 10 – Oct 10, 2024</span>
+            </div>
+            <p class="tc-desc">Conducted in-depth legal research and assisted in preparing documents, enhancing understanding of emerging legal trends.</p>
+            <div class="tc-tags"><span>Legal Research</span><span>Documentation</span><span>Legal Trends</span></div>
+          </div>
+        </div>
 
-<a href="https://github.com" target="_blank">GitHub</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">AGISS Research Institute</h3>
+                <span class="tc-role">Legal Research Intern</span>
+              </div>
+              <span class="tc-date">Aug 10 – Sep 10, 2024</span>
+            </div>
+            <p class="tc-desc">Enhanced skills in policy research and legal drafting, contributing to projects focused on contemporary legal issues.</p>
+            <div class="tc-tags"><span>Policy Research</span><span>Legal Drafting</span></div>
+          </div>
+        </div>
 
-<a href="https://kaggle.com" target="_blank">Kaggle</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">Rahul &amp; Jayshree Associates &amp; Co.</h3>
+                <span class="tc-role">Legal Intern</span>
+              </div>
+              <span class="tc-date">July 1–31, 2024</span>
+            </div>
+            <p class="tc-desc">Gained practical exposure to civil and criminal litigation, assisting with case preparations and client documentation.</p>
+            <div class="tc-tags"><span>Civil Litigation</span><span>Criminal Law</span><span>Client Docs</span></div>
+          </div>
+        </div>
 
-<a href="https://medium.com" target="_blank">Medium Blog</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">Chamber of Advocate Quazi Attibuddin M</h3>
+                <span class="tc-role">Legal Intern</span>
+              </div>
+              <span class="tc-date">Dec 2023 – Feb 2024</span>
+            </div>
+            <p class="tc-desc">Prepared briefs for cases heard at the Bombay High Court, Nagpur Bench — enhancing understanding of procedural and substantive law.</p>
+            <div class="tc-tags"><span>High Court</span><span>Brief Preparation</span><span>Procedural Law</span></div>
+          </div>
+        </div>
 
-<a href="https://dev.to" target="_blank">Dev.to Blog</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">Advocate Milind Deshpande</h3>
+                <span class="tc-role">Legal Intern</span>
+              </div>
+              <span class="tc-date">May – Sep 2023</span>
+            </div>
+            <p class="tc-desc">Observed hearings and assisted with case filings at the Amravati District and Session Court, improving knowledge of civil procedures and client handling.</p>
+            <div class="tc-tags"><span>District Court</span><span>Civil Procedures</span><span>Case Filings</span></div>
+          </div>
+        </div>
 
-<a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-org">Advocate Abdul Hakim</h3>
+                <span class="tc-role">Legal Intern</span>
+              </div>
+              <span class="tc-date">Dec 2022 – Feb 2023</span>
+            </div>
+            <p class="tc-desc">Engaged in drafting and documentation, gaining firsthand insights into local judicial processes and client interaction at the Session Court, Mangrulpir.</p>
+            <div class="tc-tags"><span>Drafting</span><span>Session Court</span><span>Documentation</span></div>
+          </div>
+        </div>
 
-<a href="https://twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
 
-<a href="https://youtube.com" target="_blank">YouTube</a>
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Academic Foundation</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-grid" data-animate="fade-up">
 
-</div>
+        <div class="edu-card edu-primary">
+          <div class="edu-year-badge">2022–2027</div>
+          <div class="edu-icon">⚖️</div>
+          <h3>BA LLB (Hons.)</h3>
+          <p class="edu-institute">Dr. Panjabrao Deshmukh College of Law, Amravati</p>
+          <p class="edu-univ">Sant Gadge Baba Amravati University</p>
+          <div class="edu-score">
+            <span class="score-num">77.34%</span>
+            <span class="score-label">Aggregate after 5 Semesters</span>
+          </div>
+        </div>
 
-</section>
+        <div class="edu-card">
+          <div class="edu-year-badge">2022</div>
+          <div class="edu-icon">📖</div>
+          <h3>12th Standard</h3>
+          <p class="edu-institute">Maharashtra State Board of Secondary &amp; Higher Secondary Education</p>
+          <p class="edu-univ">PCM + Computer Science</p>
+          <div class="edu-score">
+            <span class="score-num">95%</span>
+            <span class="score-label">Overall Score</span>
+          </div>
+        </div>
 
-<section class="contact">
-<h2>Contact</h2>
+        <div class="edu-card">
+          <div class="edu-year-badge">2020</div>
+          <div class="edu-icon">📝</div>
+          <h3>10th Standard</h3>
+          <p class="edu-institute">Maharashtra State Board of Secondary &amp; Higher Secondary Education</p>
+          <p class="edu-univ">&nbsp;</p>
+          <div class="edu-score">
+            <span class="score-num">97.4%</span>
+            <span class="score-label">Overall Score</span>
+          </div>
+        </div>
 
-<p>Email: contact@example.com</p>
+        <div class="edu-card edu-course">
+          <div class="edu-year-badge">Oct–Nov 2024</div>
+          <div class="edu-icon">🌐</div>
+          <h3>Lex Osmose Course</h3>
+          <p class="edu-institute">HNLU, Raipur</p>
+          <p class="edu-univ">International Trade in Services: Legal Framework, Negotiations &amp; Services Trade Policies</p>
+          <div class="edu-score">
+            <span class="score-num grade-o">O Grade</span>
+            <span class="score-label">Outstanding</span>
+          </div>
+        </div>
 
-</section>
+      </div>
+    </div>
+  </section>
 
-<footer>
-<p>© 2026 Aqsa Zam Zam Mirza Johar Baig</p>
-</footer>
+  <!-- ACHIEVEMENTS -->
+  <section class="section section-dark" id="achievements">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">Achievements &amp; Co-Curriculars</h2>
+      </div>
+      <div class="achievements-grid" data-animate="fade-up">
 
-<script src="script.js"></script>
+        <div class="ach-card ach-gold">
+          <div class="ach-ribbon">🥇 Winner</div>
+          <h3>Yuva Bhushan Competition 2025</h3>
+          <p>Organized by Yuvak Biradari, Mumbai</p>
+        </div>
 
+        <div class="ach-card ach-gold">
+          <div class="ach-ribbon">🥇 Winner</div>
+          <h3>12th National PPT Competition 2024</h3>
+          <p>Organized by Manikchand Pahade Law College, Chh. Sambhaji Nagar</p>
+        </div>
+
+        <div class="ach-card ach-silver">
+          <div class="ach-ribbon">🥈 Runner-Up</div>
+          <h3>1st Jadhavar National Moot Court 2025</h3>
+          <p>Organized by Jadhavar College of Law, Pune</p>
+        </div>
+
+        <div class="ach-card ach-bronze">
+          <div class="ach-ribbon">🎤 2nd Best Speaker</div>
+          <h3>3rd AIU National Moot Court 2024</h3>
+          <p>Organized by DY Patil College of Law, Navi Mumbai</p>
+        </div>
+
+        <div class="ach-card ach-clat">
+          <div class="ach-ribbon">⚡ CLAT 2022</div>
+          <h3>All India Rank 42</h3>
+          <p>Common Law Admission Test — one of India's toughest law entrance exams</p>
+        </div>
+
+        <div class="ach-card ach-ailet">
+          <div class="ach-ribbon">⚡ AILET 2022</div>
+          <h3>All India Rank 34</h3>
+          <p>All India Law Entrance Test for National Law University, Delhi</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills &amp; Competencies</h2>
+      </div>
+      <div class="skills-layout" data-animate="fade-up">
+
+        <div class="skill-block">
+          <div class="skill-icon">🔍</div>
+          <h3>Legal Research</h3>
+          <p>Proficient in leading databases: <strong>Manupatra</strong>, <strong>SCC Online</strong>, and <strong>Westlaw</strong>. Experienced in synthesizing case law and statutory material for complex legal issues.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 90%"></div></div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">📝</div>
+          <h3>Legal Drafting</h3>
+          <p>Experienced in drafting contracts, legal briefs, case summaries, client memos, and medico-legal articles for professional use.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 85%"></div></div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🎤</div>
+          <h3>Communication &amp; Advocacy</h3>
+          <p>Strong written and verbal skills forged through moot court competitions, academic projects, and client handling in live legal settings.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 92%"></div></div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">📜</div>
+          <h3>Policy Research</h3>
+          <p>Deep interest in public policy reform, governance, and institutional analysis — directly targeting roles in legislative and policy bodies.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 80%"></div></div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">⚕️</div>
+          <h3>Medico-Legal Writing</h3>
+          <p>Authored articles on healthcare regulations, medical negligence, and patient rights with clarity and statutory accuracy.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 78%"></div></div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-icon">🌍</div>
+          <h3>Languages</h3>
+          <p>Fluent in <strong>English</strong>, <strong>Hindi</strong>, and <strong>Marathi</strong> — enabling effective cross-cultural legal communication across Maharashtra and beyond.</p>
+          <div class="skill-bar"><div class="skill-fill" style="--fill: 95%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+      <div class="contact-layout" data-animate="fade-up">
+        <div class="contact-info">
+          <p class="contact-lead">Open to opportunities in policy research, legal internships, and academic collaborations. Feel free to reach out.</p>
+          <div class="contact-items">
+            <a href="mailto:aqsamirza6306@gmail.com" class="contact-item" id="contact-email">
+              <span class="ci-icon">✉️</span>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">aqsamirza****@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917558399742" class="contact-item" id="contact-phone">
+              <span class="ci-icon">📞</span>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+91 72********</span>
+              </div>
+            </a>
+            <div class="contact-item" id="contact-location">
+              <span class="ci-icon">📍</span>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">*************** Amravati – 444601</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="cf-name">Your Name</label>
+            <input type="text" id="cf-name" placeholder="e.g. Rahul Sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Your Email</label>
+            <input type="email" id="cf-email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" rows="5" placeholder="How can I help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">Send Message</button>
+          <p class="form-note" id="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Aqsa Mirza · All Rights Reserved</p>
+      <p class="footer-sub">BA LLB · Dr. Panjabrao Deshmukh College of Law, Amravati</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
