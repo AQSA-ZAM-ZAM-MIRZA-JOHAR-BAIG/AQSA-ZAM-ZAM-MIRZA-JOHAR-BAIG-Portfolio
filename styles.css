@@ -441,9 +441,73 @@ img { max-width: 100%; }
 /* ========================================================= */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  grid-template-columns: 280px 1fr 1fr;
+  gap: 48px;
   align-items: start;
+}
+
+/* ── Profile Photo ── */
+.about-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo-frame {
+  position: relative;
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.about-photo-frame::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--teal) 100%);
+  z-index: 0;
+  opacity: 0.55;
+}
+
+.about-photo-frame::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  right: -14px;
+  bottom: -14px;
+  border-radius: 20px;
+  background: var(--gold-dim);
+  z-index: -1;
+}
+
+.about-photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+  display: block;
+  box-shadow: var(--shadow-lg);
+}
+
+.photo-badge {
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background: linear-gradient(135deg, var(--gold) 0%, #a87c2e 100%);
+  color: var(--dark);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 100px;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(201,168,76,.45);
 }
 
 .about-text p {
@@ -1258,6 +1322,30 @@ img { max-width: 100%; }
 
 @media (max-width: 480px) {
   .profiles-grid { grid-template-columns: 1fr; }
+}
+
+/* ── About photo responsive ── */
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .about-photo-wrap {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+  .about-photo-frame { width: 220px; }
+  .about-photo { aspect-ratio: 1 / 1; }
+}
+
+@media (max-width: 640px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-photo-frame { width: 180px; }
 }
 
 /* ── Full Legal Name Display ── */
